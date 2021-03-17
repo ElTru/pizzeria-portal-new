@@ -6,10 +6,10 @@ const Tables = props => {
   return (
     <div className={classes.component}>
       <h2>Tables view</h2>
-      <Link to={process.env.PUBLIC_URL + `/tables/booking/new`}>Book table</Link>
-      <Link to={process.env.PUBLIC_URL + `/tables/booking/:id`}>Edit any booking</Link>
-      <Link to={process.env.PUBLIC_URL + `/tables/events/new`}>Add event</Link>
-      <Link to={process.env.PUBLIC_URL + `/tables/events/:id`}>Edit any event</Link>
+      <Link to={process.env.PUBLIC_URL + `/tables/booking/:id`}>Booking Details</Link>
+      <Link to={process.env.PUBLIC_URL + `/tables/booking/new`}>New Booking</Link>
+      <Link to={process.env.PUBLIC_URL + `/tables/events/:id`}>Events Details</Link>
+      <Link to={process.env.PUBLIC_URL + `/tables/events/new`}>Add Event</Link>
     </div>
   );
 };
