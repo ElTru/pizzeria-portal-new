@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Newevent.module.scss';
+import styles from './NewEvent.module.scss';
 
 const Newevent = () => (
   <div className={styles.component}>
