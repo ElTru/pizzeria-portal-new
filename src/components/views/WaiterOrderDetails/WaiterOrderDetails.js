@@ -5,6 +5,7 @@ import styles from './WaiterOrderDetails.module.scss';
 const WaiterOrderDetails = props => (
   <div className={styles.component}>
     <h2>Order Details</h2>
+    <hr />
     <span>{props.match.params.id}</span>
   </div>
 );

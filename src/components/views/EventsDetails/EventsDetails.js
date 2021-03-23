@@ -4,7 +4,8 @@ import styles from './EventsDetails.module.scss';
 
 const EventsDetails = ({ match }) => (
   <div className={styles.component}>
-    <h2>TablesEventsId View</h2>
+    <h2>Event Details</h2>
+    <hr />
     <span>{match.params.id}</span>
   </div>
 );

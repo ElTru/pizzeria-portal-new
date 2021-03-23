@@ -3,3 +3,25 @@
 .component {
   padding: $base-size;
 }
+
+h2 {
+  text-transform: uppercase;
+}
+
+hr {
+  margin-bottom: 32px;
+}
+
+.form {
+  width: 400px;
+  margin: 0 auto;
+
+  .input {
+    width: 320px;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    width: 320px;
+  }
+}

@@ -28,7 +28,7 @@ const demoContentStatistic = [
 
 const Homepage = () => (
   <div className={styles.component}>
-    <h2>Homepage Overview</h2>
+    <h2>Homepage</h2>
     <hr />
     <h3>Order statistics - today</h3>
     <Paper>

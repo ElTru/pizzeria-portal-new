@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 
 const BookingDetails = ({ match }) => (
   <div className={styles.component}>
-    <h2>Booking Details view</h2>
+    <h2>Booking Details</h2>
+    <hr />
     <span>{match.params.id}</span>
   </div>
 );
